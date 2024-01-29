@@ -50,4 +50,4 @@ it.only('Deve selecionar um produto da lista', () => {
     
 })
 
-//Funcionalidade Página de produtos com cenário sem otimizar - Capiturando elemensto por arrays e pelo nome do produto
+//Funcionalidade Página de produtos com cenário sem otimizar - Capiturando elementos por arrays e pelo nome do produto
