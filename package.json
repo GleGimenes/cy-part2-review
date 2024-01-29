@@ -1,0 +1,15 @@
+{
+  "name": "cy-part1-review",
+  "version": "1.0.0",
+  "description": "Breve revisão de teste UI automatizado  e2e, com objetivo de criar teste no Cypress para CI no Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  }
+}
