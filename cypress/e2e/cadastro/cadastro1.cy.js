@@ -27,7 +27,7 @@ it('Deve realizar Cadastro com sucesso _ Usando Faker', () => {
     cy.get('.woocommerce-message').should('contain', 'Detalhes da conta modificados com sucesso.')
 });
 
-it.only('Deve realizar Cadastro com sucesso _ Usando variáveis', () => {
+it('Deve realizar Cadastro com sucesso _ Usando variáveis', () => {
     var email = faker.internet.email()
     var nome = faker.name.firstName()
     var sobrenome = faker.name.lastName()
@@ -43,4 +43,10 @@ it.only('Deve realizar Cadastro com sucesso _ Usando variáveis', () => {
     cy.get('.woocommerce-message').should('contain', 'Detalhes da conta modificados com sucesso.')
 });
 
-//Funcionalidade Cadastro com cenário com Faker e variáveis
+it('Deve realizar Cadastro com sucesso - Utilizando Commandos Customizados', () => {
+    cy.preCadastro(faker.internet.email(), faker.internet.password(), faker.name.firstName(), faker.name.lastName())
+    cy.get('.woocommerce-message').should('contain', 'Detalhes da conta modificados com sucesso.')
+    
+});
+
+//Funcionalidade Cadastro com cenário com Faker, variáveis e Commandos Customizados
