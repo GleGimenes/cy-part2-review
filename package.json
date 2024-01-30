@@ -4,7 +4,8 @@
   "description": "Breve revisão de teste UI automatizado  e2e, com objetivo de criar teste no Cypress para CI no Jenkins",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run",
+    "cy:dash": "npx cypress run --record --key 954f21aa-ef1d-4948-8973-09d02e8cd4a5"
   },
   "keywords": [],
   "author": "",

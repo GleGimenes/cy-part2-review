@@ -7,4 +7,5 @@ module.exports = defineConfig({
     },
     baseUrl:'http://lojaebac.ebaconline.art.br/',
   },
+  video: true,
 });
