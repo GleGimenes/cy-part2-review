@@ -1,0 +1,21 @@
+[
+    {
+        "nomeProduto":"Celeste Sports Bra",
+        "tamanho": "M",
+        "cor": "Red",
+        "quantidade": 1
+    },
+    {
+        "nomeProduto":"Augusta Pullover Jacket",
+        "tamanho": "L",
+        "cor": "Orange",
+        "quantidade": 3
+    },
+    {
+        
+        "nomeProduto":"Autumn Pullie",
+        "tamanho": "S",
+        "cor": "Green",
+        "quantidade": 4
+    }
+]
